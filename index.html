@@ -1,20 +1,53 @@
 <html>
   <head>
+    <meta charset="UTF-8" />
     <style>
-    .body {
-      
-    }  
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+      }
+
+      .container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        width: 320px;
+        padding: 24px;
+        border-radius: 12px;
+        background: #ffffff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
+
+      .name {
+        margin: 0 0 4px;
+        font-size: 24px;
+      }
+
+      .title {
+        margin: 0 0 16px;
+        color: #4c5a67;
+      }
+
+      .info {
+        margin: 8px 0;
+        color: #1f2933;
+      }
     </style>
-    
   </head>
   <body>
-    <nav>
-      <ul>
-      <span> 한의사 이정재 명함 </span>
-      </ul>
-    </nav>
-<div class="container">
-  
-</div>
+    <div class="container">
+      <div class="card">
+        <h1 class="name">한의사 이정재</h1>
+        <p class="title">Business Card Template</p>
+        <p class="info">📞 010-0000-0000</p>
+        <p class="info">✉️ doctor@example.com</p>
+        <p class="info">📍 서울시 강남구</p>
+      </div>
+    </div>
   </body>
 </html>
